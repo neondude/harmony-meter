@@ -1,0 +1,23 @@
+{
+  "name": "harmony-meter",
+  "version": "1.0.0",
+  "description": "a clone of the social guessing game wavelength",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node run-server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neondude/harmony-meter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neondude/harmony-meter/issues"
+  },
+  "homepage": "https://github.com/neondude/harmony-meter#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
