@@ -91,13 +91,13 @@ class MeterManger {
     ];
   }
 
-  increment() {
-    this.currentValue = this.gauge.value + this.step
+  increment(amount) {
+    this.currentValue = this.gauge.value + amount
     this.gauge.set(this.currentValue);
   }
 
-  decrement() {
-    this.currentValue = this.gauge.value - this.step
+  decrement(amount) {
+    this.currentValue = this.gauge.value - amount
     this.gauge.set(this.currentValue);
   }
 

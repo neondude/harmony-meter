@@ -43,8 +43,10 @@
             <div class="d-flex justify-content-between">
                 <button class="btn btn-warning btn-lg" type="button" onclick="meter.toggleVisiblity()">TOGGLE</button>
                 <div class="btn-group" role="group" aria-label="Basic outlined example">
-                    <button class="btn btn-outline-dark btn-lg" type="button" onclick="meter.decrement()">-</button>
-                    <button class="btn btn-outline-dark btn-lg" type="button" onclick="meter.increment()">+</button>                    
+                    <button class="btn btn-outline-dark btn-lg" type="button" onclick="meter.decrement(20)">&#60;&#60;</button>
+                    <button class="btn btn-outline-dark btn-lg" type="button" onclick="meter.decrement(4)">&#60;</button>
+                    <button class="btn btn-outline-dark btn-lg" type="button" onclick="meter.increment(4)">&#62;</button>
+                    <button class="btn btn-outline-dark btn-lg" type="button" onclick="meter.increment(20)">&#62;&#62;</button>
                 </div>
                 <button class="btn btn-warning btn-lg" type="button" onclick="meter.spin()">SPIN</button>
             </div>
