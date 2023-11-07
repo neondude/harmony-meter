@@ -40,16 +40,18 @@
       <div class="row">
         <div class="col"></div>
         <div class="col-md-6">
-            <div class="d-flex justify-content-between">
-                <button class="btn btn-warning btn-lg" type="button" onclick="meter.toggleVisiblity()">TOGGLE</button>
-                <div class="btn-group" role="group" aria-label="Basic outlined example">
-                    <button class="btn btn-outline-dark btn-lg" type="button" onclick="meter.decrement(20)">&#60;&#60;</button>
-                    <button class="btn btn-outline-dark btn-lg" type="button" onclick="meter.decrement(4)">&#60;</button>
-                    <button class="btn btn-outline-dark btn-lg" type="button" onclick="meter.increment(4)">&#62;</button>
-                    <button class="btn btn-outline-dark btn-lg" type="button" onclick="meter.increment(20)">&#62;&#62;</button>
-                </div>
-                <button class="btn btn-warning btn-lg" type="button" onclick="meter.spin()">SPIN</button>
+          <div class="d-flex justify-content-center">
+            <div class="btn-group" role="group" aria-label="Basic outlined example">
+              <button class="btn btn-outline-dark btn-lg m-1" type="button" onclick="meter.decrement(20)">&#60;&#60;</button>
+              <button class="btn btn-outline-dark btn-lg m-1" type="button" onclick="meter.decrement(4)">&#60;</button>
+              <button class="btn btn-outline-dark btn-lg m-1" type="button" onclick="meter.increment(4)">&#62;</button>
+              <button class="btn btn-outline-dark btn-lg m-1" type="button" onclick="meter.increment(20)">&#62;&#62;</button>
             </div>
+          </div>
+          <div class="d-flex justify-content-center mt-2"> <!-- mt-2 adds a margin-top to the second row of buttons -->
+            <button class="btn btn-warning btn-lg m-1" type="button" onclick="meter.toggleVisiblity()">SHOW/HIDE</button>
+            <button class="btn btn-warning btn-lg m-1" type="button" onclick="meter.spin()">SPIN</button>
+          </div>
         </div>
         <div class="col">
         </div>
